@@ -3,6 +3,10 @@ ICS43432 mems mic for use with raspberry pi
 
 Breakout board designed in EagleCAD. 
 
+![layout](ics43432-pi/images/ics43432_flex_wide_layout.png)
+
+![schematic](ics43432-pi/images/ics43432_flex_wide_schematic.png)
+
 # ICS43432 Reference
 http://www.invensense.com/wp-content/uploads/2015/02/ICS-43432_DS.pdf
 
