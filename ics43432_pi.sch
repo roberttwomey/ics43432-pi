@@ -1185,8 +1185,8 @@ Solder type</description>
 <part name="PAD3" library="wirepad" deviceset="SMD2" device=""/>
 <part name="PAD4" library="wirepad" deviceset="SMD2" device=""/>
 <part name="PAD5" library="wirepad" deviceset="SMD2" device=""/>
-<part name="JMP1" library="jump-0r-smd" deviceset="0R-JUMP" device="A"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="JMP2" library="jump-0r-smd" deviceset="0R-JUMP" device="C"/>
 </parts>
 <sheets>
 <sheet>
@@ -1203,9 +1203,8 @@ Solder type</description>
 <instance part="PAD3" gate="1" x="106.68" y="38.1"/>
 <instance part="PAD4" gate="1" x="106.68" y="33.02"/>
 <instance part="PAD5" gate="1" x="106.68" y="27.94"/>
-<instance part="JMP1" gate="-0R" x="106.68" y="2.54"/>
-<instance part="JMP1" gate="G$2" x="104.14" y="5.08"/>
 <instance part="GND3" gate="1" x="106.68" y="-7.62"/>
+<instance part="JMP2" gate="-0R" x="106.68" y="2.54"/>
 </instances>
 <busses>
 </busses>
@@ -1239,7 +1238,7 @@ Solder type</description>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="106.68" y1="0" x2="106.68" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="JMP1" gate="-0R" pin="3"/>
+<pinref part="JMP2" gate="-0R" pin="3"/>
 </segment>
 </net>
 <net name="WS" class="0">
@@ -1279,7 +1278,7 @@ Solder type</description>
 <segment>
 <wire x1="119.38" y1="2.54" x2="109.22" y2="2.54" width="0.1524" layer="91"/>
 <label x="119.38" y="2.54" size="1.778" layer="95" rot="R180"/>
-<pinref part="JMP1" gate="-0R" pin="2"/>
+<pinref part="JMP2" gate="-0R" pin="2"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -1312,7 +1311,7 @@ Solder type</description>
 <segment>
 <wire x1="106.68" y1="5.08" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
 <label x="106.68" y="12.7" size="1.778" layer="95"/>
-<pinref part="JMP1" gate="-0R" pin="1"/>
+<pinref part="JMP2" gate="-0R" pin="1"/>
 </segment>
 </net>
 </nets>
